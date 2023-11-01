@@ -1,0 +1,297 @@
+/* Common Css Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+/* Common Css End */
+
+/* nav section start */
+
+nav {
+    background-color: #02918c;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav ul li a {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 26px 25.5px;
+   
+    font-weight: 800;
+   
+}
+nav ul li a:hover {
+    color: #cfc91d;
+    transition: 0.5s;
+}
+ /* nav section End */
+
+ /* banner section start */
+ #banner{
+    background-image: url(./../picture/banner-bg.jpg);
+    background-size: cover;
+    padding: 209px 0;
+    color: #ffffff;
+ }
+ #banner h4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+   
+ }
+ #banner h1{
+    font-size: 68px;
+    line-height: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 30px;
+ }
+ #banner p{
+    font-size: 18px;
+    line-height: 33px;
+ }
+ #banner img{
+    margin: 52px 0;
+ }
+ #banner a{
+    display: block;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0b1016;
+    background-color: #cfc91d;
+    padding: 14px 42px;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+ }
+
+
+  /* banner section End */
+
+
+
+
+  /* about section start */
+
+  #about{
+    padding: 96px 0;
+  }
+ 
+  #about .about-section-info h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+  }
+  #about .about-section-info p{
+    padding: 0 130px;
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+  }
+  #about .about-section-info p b{
+    font-weight: 800;
+    font-size: 23px;
+  }
+  #about .about-item-container .about-item{
+    width: 25%;
+    padding: 37px 65px;
+    margin-top: 80px;
+    border-right: 1px solid #d9dbdb;
+  }
+  #about .about-item-container .about-item:last-child{
+    border-right-color: transparent;
+  }
+  #about .about-item-container .about-item h3{
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 23px;
+    color: #7e8287;
+    margin: 30px 0;
+  }
+  #about .about-item-container .about-item p{
+    font-size: 11px;
+    line-height: 21px;
+    color: #7e8287;
+
+  }
+    /* about section start */
+
+
+    
+     /* service section start */
+    #service{
+       background-image: url(./../picture/service-bg.jpg);
+       background-size: cover;
+       padding: 75px 0;
+    }
+    #service .service-section-info,.service-item-container{
+        width: 50%;
+    }
+    #service .service-section-info h5{
+        font-size: 46px;
+        font-weight: 800;
+        color: #02918c;
+        text-transform: uppercase;
+    }
+    #service .service-section-info p{
+        font-size: 16px;
+        line-height: 41px;
+        color: #7e8287;
+    }
+    #service .service-item-container .service-item{
+      width: 50%;
+    }
+    #service .service-item-container .service-item h6{
+      font-size: 16px;
+      line-height: 23px;
+      color: #7e8287;
+      margin: 19px 0;
+    }
+    #service .service-item-container .service-item p{
+     font-size: 11px;
+     line-height: 21px;
+     color: #7e8287;
+     padding-right: 100px;
+    }
+    #service .service-item-container .service-item img{
+      padding-top: 57px;
+    }
+      /* service section End */
+
+
+      /* mywork section start */
+      #mywork{
+        padding: 100px 0;
+      }
+      #mywork .mywork-section-info h2{
+        font-size: 46px;
+        color: #02918c;
+      }
+      #mywork .mywork-section-info p{
+        font-size: 16px;
+        line-height: 41px;
+        color: #7e8287;
+        padding: 0 256px;
+      }
+       #mywork .mywork-item{
+        width: 25%;
+        position: relative;
+       
+       }
+       #mywork .mywork-item img{
+        width: 100%;
+        height: 100%;
+       }
+       #mywork .mywork-info{
+        position: absolute;
+        z-index: 1;
+        background-color: #02918c;
+        inset: 20px 28px;
+        padding: 58px 39px;
+        text-align: center;
+        color: #ffffff;
+        transition: .6s;
+        transform: scale(0)rotate(30deg)skewX(20deg);
+        transform-origin: left;
+       
+       
+       }
+       #mywork .mywork-item:hover .mywork-info{
+        transform: scale(1)rotate(0)skewX(0);
+        transform-origin: left bottom;
+        
+       }
+       #mywork .mywork-info p{
+        padding-top: 14px;
+       }
+
+       /* mywork section End */
+
+
+       /* contact css start */
+       #contact .contact-info h2{
+        font-size: 46px;
+        color: #02918c;
+        text-transform: uppercase;
+       }
+       #contact .contact-info p{
+        font-size: 16px;
+        line-height: 41px;
+        color: #7e8287;
+        padding: 0 256px;
+       }
+        #contact .contactform{
+          background-color: #0b0b0b;
+          padding: 70px 0;
+        }
+        #contact .contactform input{
+          display: block;
+          margin: 0 auto;
+          font-size: 16px;
+          color: #7e8287;
+          background: none;
+          text-align: center;
+          margin-bottom: 50px;
+          padding: 18px;
+          border: none;
+          border-bottom: 1px solid #898989;
+        }
+        #contact .contactform input.sm{
+            width: 636px;
+          }
+          #contact .contactform input.lg{
+            width: 920px;
+          }
+          #contact .contactform button{
+            padding: 15px 64px;
+            text-transform: uppercase;
+            background-color: #cfc91d;
+            display: block;
+            margin: 0 auto;
+          font-size: 14px;
+          font-weight: 800;
+          line-height: 30px;
+          }
+        /* contact css start */
+        .footer p{
+          background-color: #000000;
+          color: #7e8287;
+          padding: 30px;
+        }
+    
+    
+
+ 
+
+
+   
